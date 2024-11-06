@@ -1,0 +1,165 @@
+/* styles.css */
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+p, ul {
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Header Styling */
+header {
+    background: #3498db;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3.2rem;
+    margin: 0;
+    color: #fff;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    background: #2980b9;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* General Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Fixed Dimensions for Main Images */
+.bio-img, .company-img, .boxing-img, .certificates-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Company Logo Styling */
+.company-logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Skills Section */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.skills-list li {
+    background: #ecf0f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+/* Experience Section */
+.experience {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.experience ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
